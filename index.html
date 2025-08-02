@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhakshayani Goparaju - Portfolio</title>
+    <meta name="description" content="Personal portfolio of Dhakshayani Goparaju - Computer Science undergraduate and aspiring software developer">
+    <meta name="keywords" content="portfolio, software developer, computer science, python, java, web development">
+    <meta name="author" content="Dhakshayani Goparaju">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm z-50 border-b border-gray-200 dark:border-gray-700">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-gray-900 dark:text-white">DG</div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <button class="md:hidden mobile-menu-toggle p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <button id="theme-toggle" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-900 dark:text-white">
+                    <i class="fas fa-moon dark:hidden"></i>
+                    <i class="fas fa-sun hidden dark:inline"></i>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div class="md:hidden mobile-menu hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-800 rounded-lg mt-2 shadow-lg">
+                    <a href="#home" class="mobile-nav-link">Home</a>
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#skills" class="mobile-nav-link">Skills</a>
+                    <a href="#education" class="mobile-nav-link">Education</a>
+                    <a href="#projects" class="mobile-nav-link">Projects</a>
+                    <a href="#experience" class="mobile-nav-link">Experience</a>
+                    <a href="#certifications" class="mobile-nav-link">Certifications</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.05"%3E%3Ccircle cx="30" cy="30" r="2"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>
+        
+        <!-- Simple Floating Elements -->
+        <div class="absolute top-20 left-20 w-32 h-32 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-xl animate-float"></div>
+        <div class="absolute bottom-20 right-20 w-24 h-24 bg-gradient-to-br from-pink-400/20 to-red-400/20 rounded-full blur-xl animate-float-delayed"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Text Content -->
+                <div class="text-center lg:text-left animate-fade-in relative z-30">
+                                         <h2 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
+                         Dhakshayani Goparaju
+                     </h2>
+                    <h2 class="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8">
+                        Aspiring Software Developer | Java & Python Enthusiast
+                    </h2>
+                    <p class="text-lg text-gray-700 dark:text-gray-400 mb-12 max-w-3xl lg:max-w-none">
+                        Computer Science undergraduate passionate about backend development, cloud technologies, and creating innovative solutions. 
+                        Currently pursuing B.Tech at CMR Institute of Technology with a strong foundation in programming and web development.
+                    </p>
+                    <div class="flex justify-center lg:justify-start space-x-6 mb-8">
+                        <a href="https://github.com/Dhakshayani-Goparaju" target="_blank" class="social-link" aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dhakshayani-goparaju" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:dhakshayanigoparaju@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <a href="resume.html" target="_blank" class="btn-primary">
+                        <i class="fas fa-download mr-2"></i>
+                        View Resume
+                    </a>
+                </div>
+                
+                <!-- Profile Image -->
+                <div class="flex justify-center lg:justify-end relative z-30">
+                    <div class="profile-image-container">
+                        <img 
+                            src="profile.jpg" 
+                            alt="Dhakshayani Goparaju - Computer Science Student" 
+                            class="profile-image"
+                            onerror="this.src='https://images.pexels.com/photos/3777943/pexels-photo-3777943.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop&crop=face'"
+                        >
+                        <div class="profile-image-overlay">
+                            <div class="profile-image-text">
+                                <i class="fas fa-user text-4xl text-white"></i>
+                                <p class="text-white text-sm mt-2">Professional Photo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white dark:bg-gray-800 relative overflow-hidden">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%239C92AC" fill-opacity="0.02"%3E%3Cpath d="M20 20c0 11.046-8.954 20-20 20s-20-8.954-20-20 8.954-20 20-20 20 8.954 20 20zm0 0c0-11.046 8.954-20 20-20s20 8.954 20 20-8.954 20-20 20-20-8.954-20-20z"/%3E%3C/g%3E%3C/svg%3E')] opacity-10"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">About Me</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-6">
+                    <p class="text-lg text-gray-700 dark:text-gray-300">
+                        I'm a Computer Science undergraduate at CMR Institute of Technology with a GPA of 9.48/10. 
+                        My passion lies in backend development and cloud technologies, where I enjoy building scalable 
+                        and efficient solutions.
+                    </p>
+                    <p class="text-lg text-gray-700 dark:text-gray-300">
+                        I have hands-on experience with various technologies including Python, Java, and web development 
+                        stack. My goal is to become a full-stack developer who can create impactful applications that 
+                        solve real-world problems.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="py-20 bg-gray-50 dark:bg-gray-900 relative overflow-hidden">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.02"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-08"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">Technical Skills</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="skills-container" style="display:flex;flex-wrap:wrap;gap:30px;align-items:center;justify-content:center;">
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="skill-icon"/>
+                        <div class="skill-name">Java</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-icon"/>
+                        <div class="skill-name">Python</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-icon"/>
+                        <div class="skill-name">HTML</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-icon"/>
+                        <div class="skill-name">CSS</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon"/>
+                        <div class="skill-name">JavaScript</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="skill-icon"/>
+                        <div class="skill-name">MongoDB</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" class="skill-icon"/>
+                        <div class="skill-name">SQLite</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse" class="skill-icon"/>
+                        <div class="skill-name">Eclipse</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="skill-icon"/>
+                        <div class="skill-name">GitHub</div>
+                    </div>
+                    <div class="skill-icon-item">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode" class="skill-icon"/>
+                        <div class="skill-name">VSCode</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-20 bg-white dark:bg-gray-800 relative overflow-hidden">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.02"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-08"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">Education</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">CMR Institute of Technology</h3>
+                        <span class="education-period">2022 - 2026</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400">B.Tech in Computer Science and Engineering</p>
+                    <p class="text-gray-600 dark:text-gray-400">GPA: 9.48/10</p>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Pragathi Junior College</h3>
+                        <span class="education-period">2020 - 2022</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400">Intermediate</p>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Vanaja Chandra High School</h3>
+                        <span class="education-period">2019 - 2020</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400">SSC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50 dark:bg-gray-900 relative overflow-hidden">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.02"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-08"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">Projects</h2>
+                         <div class="grid md:grid-cols-3 gap-6">
+                                 <div class="project-card">
+                     <div class="project-image-container mb-3">
+                         <img 
+                             src="scholorship.jpg" 
+                             alt="Scholarship Information System - Project Screenshot" 
+                             class="project-image"
+                             onerror="this.src='https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'"
+                         >
+                     </div>
+                     <div class="project-header">
+                         <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Scholarship Information System</h3>
+                                                  <div class="project-links">
+                             <a href="https://github.com/Dhakshayani-Goparaju/Scholarship_project" target="_blank" class="project-link" aria-label="View Scholarship Information System on GitHub">
+                                 <i class="fab fa-github"></i>
+                                 <span class="ml-2 text-sm">View on GitHub</span>
+                             </a>
+                         </div>
+                     </div>
+                     <p class="text-gray-600 dark:text-gray-400 mb-3 text-sm">
+                         A comprehensive system for managing scholarship applications and eligibility criteria. 
+                         Features include user authentication, application tracking, and automated eligibility checks.
+                     </p>
+                     <div class="flex flex-wrap gap-2">
+                         <span class="tech-tag">Flask</span>
+                         <span class="tech-tag">SQL</span>
+                         <span class="tech-tag">HTML/CSS</span>
+                     </div>
+                 </div>
+                
+                                                                   <div class="project-card">
+                      <div class="project-image-container mb-3">
+                          <img 
+                              src="e-commerce.jpg" 
+                              alt="Ecommerce Website - Project Screenshot" 
+                              class="project-image"
+                              onerror="this.src='https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'"
+                          >
+                      </div>
+                      <div class="project-header">
+                          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Ecommerce Website</h3>
+                                                   <div class="project-links">
+                              <a href="https://github.com/Dhakshayani-Goparaju/ecommerce" target="_blank" class="project-link" aria-label="View Ecommerce Website on GitHub">
+                                  <i class="fab fa-github"></i>
+                                  <span class="ml-2 text-sm">View on GitHub</span>
+                              </a>
+                          </div>
+                      </div>
+                      <p class="text-gray-600 dark:text-gray-400 mb-3 text-sm">
+                          A fully functional e-commerce platform with user authentication, shopping cart functionality, 
+                          order management, and payment integration.
+                      </p>
+                      <div class="flex flex-wrap gap-2">
+                          <span class="tech-tag">PHP</span>
+                          <span class="tech-tag">HTML</span>
+                          <span class="tech-tag">CSS</span>
+                      </div>
+                  </div>
+                 
+                                   <div class="project-card">
+                      <div class="project-image-container mb-3">
+                          <img 
+                              src="eye.jpg" 
+                              alt="Iris Tumor Detection - Project Screenshot" 
+                              class="project-image"
+                              onerror="this.src='https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop'"
+                          >
+                      </div>
+                      <div class="project-header">
+                          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Iris Tumor Detection</h3>
+                                                   <div class="project-links">
+                              <a href="https://github.com/Dhakshayani-Goparaju/Iris-Tumor-detection" target="_blank" class="project-link" aria-label="View Iris Tumor Detection on GitHub">
+                                  <i class="fab fa-github"></i>
+                                  <span class="ml-2 text-sm">View on GitHub</span>
+                              </a>
+                          </div>
+                      </div>
+                      <p class="text-gray-600 dark:text-gray-400 mb-3 text-sm">
+                        Built a CNN model to identify iris tumors from eye images, enabling early diagnosis. 
+                        Trained on labeled data with preprocessing and augmentation to support accurate, AI-assisted detection for ophthalmologists.
+                      </p>
+                      <div class="flex flex-wrap gap-2">
+                          <span class="tech-tag">Python</span>
+                          <span class="tech-tag">CNN</span>
+                          <span class="tech-tag">Machine Learning</span>
+                          <span class="tech-tag">TensorFlow</span>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-white dark:bg-gray-800 relative overflow-hidden">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%239C92AC" fill-opacity="0.02"%3E%3Cpath d="M20 20.5V18H0v2.5h20zm0 0H40v-2.5H20v2.5zm0 0v20H0v-20h20zm0 0h20v20H20v-20z"/%3E%3C/g%3E%3C/svg%3E')] opacity-08"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">Experience</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">AIML Internship</h3>
+                        <span class="experience-period">Jan 2024 - Mar 2024</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400">
+                        Worked on machine learning projects and AI model development.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1ss1M5xwa89NiTCg1rOopuvbZbL-C5xUb/view" target="_blank" class="certification-link" aria-label="View AIML Internship Certificate">
+                        <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                    </a>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Android Developer Internship</h3>
+                        <span class="experience-period">Apr 2024 - Jun 2024</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400">
+                        Developed mobile applications using Android SDK and Java.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1skcw9NTmtGzdzSn-RYN6T0m_bJJwT2ib/view" target="_blank" class="certification-link" aria-label="View Android Developer Internship Certificate">
+                        <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                    </a>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Altair Data Science Internship</h3>
+                        <span class="experience-period">Jul 2024 - Sep 2024</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400">
+                        Focused on data analysis and visualization using Python and data science tools.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1jxU1Wk114kPuK381Pkr6SFS7blZyIoaM/view" target="_blank" class="certification-link" aria-label="View Altair Data Science Internship Certificate">
+                        <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                    </a>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white">DevOps Internship at Edugene</h3>
+                        <span class="experience-period">Jun 2024 - Aug 2024</span>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400">
+                        Gained experience in CI/CD pipelines, containerization, and cloud deployment.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1F7y4mmcqqnLkbWFVG94EV-3UCK1K2y9m/view" target="_blank" class="certification-link" aria-label="View DevOps Internship Certificate">
+                        <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-gray-50 dark:bg-gray-900 relative overflow-hidden">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.02"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-08"></div>
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">Certifications</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                 <div class="certification-card">
+                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Java & Python</h3>
+                     <p class="text-gray-600 dark:text-gray-400">Infosys Springboard</p>
+                     <a href="https://drive.google.com/file/d/1sY9b928OyhleGU4gm-YjBAkFAYv_4aDM/view?usp=drivesdk" target="_blank" class="certification-link" aria-label="View Java & Python Certificate">
+                         <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                     </a>
+                 </div>
+                 
+                 <div class="certification-card">
+                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">MongoDB</h3>
+                     <p class="text-gray-600 dark:text-gray-400">LinkedIn Learning</p>
+                     <a href="https://www.linkedin.com/learning/certificates/cde8e415edfa4833665e26f300552e0274938c29038ef11db8e1cd0c05e3c26b?trk=share_certificate" target="_blank" class="certification-link" aria-label="View MongoDB Certificate">
+                         <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                     </a>
+                 </div>
+                 
+                 <div class="certification-card">
+                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">JavaScript</h3>
+                     <p class="text-gray-600 dark:text-gray-400">LinkedIn Learning</p>
+                     <a href="https://www.linkedin.com/learning/certificates/e6c7cd619a9f8a0bd124e55dbd5b8eb53623df223dc00322f3d09a3b45d828ba?trk=share_certificate" target="_blank" class="certification-link" aria-label="View JavaScript Certificate">
+                         <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                     </a>
+                 </div>
+                 
+                 <div class="certification-card">
+                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Cyber threat management</h3>
+                     <p class="text-gray-600 dark:text-gray-400">Cisco</p>
+                     <a href="https://drive.google.com/file/d/1C7itt_nrcka9Cr7DcYUonJ-YDq3bFUXy/view" target="_blank" class="certification-link" aria-label="View CCNA Certificate">
+                         <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                     </a>
+                 </div>
+                 <div class="certification-card">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Switching routing</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Cisco</p>
+                    <a href="https://drive.google.com/file/d/1WbjoLmGGWP35AmR5X06KJa3gOAGTYtHH/view?pli=1" target="_blank" class="certification-link" aria-label="View CCNA Certificate">
+                        <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                    </a>
+                </div>
+                 <div class="certification-card">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Introduction to Networks</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Cisco</p>
+                    <a href="https://drive.google.com/file/d/1c-Jzd0qe3fwy9kLF9JK5QPhw8Zi5yJi1/view" target="_blank" class="certification-link" aria-label="View CCNA Certificate">
+                        <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                    </a>
+                </div>
+                 <div class="certification-card">
+                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Networking Security</h3>
+                    <p class="text-gray-600 dark:text-gray-400">Cisco</p>
+                    <a href="https://drive.google.com/file/d/1P74561Bprq_Zaa2nQ14N3p6P8xAhjVpM/view" target="_blank" class="certification-link" aria-label="View CCNA Certificate">
+                        <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                    </a>
+                </div>
+
+                 
+                 <div class="certification-card">
+                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Generative AI</h3>
+                     <p class="text-gray-600 dark:text-gray-400">GUVI</p>
+                     <a href="https://www.guvi.in/verify-certificate?id=A0D68123iV7317l4Nb" target="_blank" class="certification-link" aria-label="View Generative AI Certificate">
+                         <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                     </a>
+                 </div>
+                 
+                 <div class="certification-card">
+                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">ServiceNow MicroCert</h3>
+                     <p class="text-gray-600 dark:text-gray-400">ServiceNow</p>
+                     <a href="https://drive.google.com/file/d/1F7y4mmcqqnLkbWFVG94EV-3UCK1K2y9m/view" target="_blank" class="certification-link" aria-label="View ServiceNow MicroCert Certificate">
+                         <i class="fas fa-external-link-alt mr-1"></i>View Certificate
+                     </a>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white dark:bg-gray-800 relative overflow-hidden">
+        <!-- Simple Background Pattern -->
+        <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.02"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-08"></div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+            <h2 class="text-4xl font-bold text-center text-gray-900 dark:text-white mb-16">Get In Touch</h2>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Let's Connect!</h3>
+                        <p class="text-lg text-gray-700 dark:text-gray-300 mb-8">
+                            I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and development. 
+                            Feel free to reach out through any of the channels below.
+                        </p>
+                    </div>
+                    
+                    <div class="space-y-6">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope text-green-600 dark:text-green-400"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Email</h4>
+                                <a href="mailto:dhakshayanigoparaju@gmail.com" class="text-gray-600 dark:text-gray-400 hover:text-green-600 dark:hover:text-green-400 transition-colors duration-300">
+                                    dhakshayanigoparaju@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin text-blue-600 dark:text-blue-400"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/dhakshayani-goparaju" target="_blank" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
+                                    https://www.linkedin.com/in/dhakshayani-goparaju
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github text-gray-800 dark:text-gray-200"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">GitHub</h4>
+                                <a href="https://github.com/Dhakshayani-Goparaju" target="_blank" class="text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 transition-colors duration-300">
+                                    https://github.com/Dhakshayani-Goparaju
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt text-red-600 dark:text-red-400"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Location</h4>
+                                <p class="text-gray-600 dark:text-gray-400">
+                                    Hyderabad, Telangana, India
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="bg-white/90 dark:bg-gray-800/90 rounded-lg p-8 shadow-lg backdrop-blur-sm border border-gray-200 dark:border-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-6">Send a Message</h3>
+                    <form id="contactForm" class="space-y-6">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Name</label>
+                                <input type="text" id="name" name="name" class="contact-input" placeholder="Your name" required>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="contact-input" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" class="contact-input" placeholder="What's this about?" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" class="contact-input" placeholder="Tell me about your project or opportunity..." required></textarea>
+                        </div>
+                        <button type="submit" class="contact-submit-btn" id="submitBtn">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Quick Contact Cards -->
+            <div class="mt-16 grid md:grid-cols-3 gap-6">
+                <div class="quick-contact-card">
+                    <div class="quick-contact-icon">
+                        <i class="fas fa-briefcase text-blue-600 dark:text-blue-400"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Job Opportunities</h4>
+                    <p class="text-gray-600 dark:text-gray-400">Interested in full-time positions and internships</p>
+                </div>
+                
+                <div class="quick-contact-card">
+                    <div class="quick-contact-icon">
+                        <i class="fas fa-code text-green-600 dark:text-green-400"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Project Collaboration</h4>
+                    <p class="text-gray-600 dark:text-gray-400">Open to collaborative projects and hackathons</p>
+                </div>
+                
+                <div class="quick-contact-card">
+                    <div class="quick-contact-icon">
+                        <i class="fas fa-graduation-cap text-purple-600 dark:text-purple-400"></i>
+                    </div>
+                    <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Mentorship</h4>
+                    <p class="text-gray-600 dark:text-gray-400">Seeking guidance from experienced developers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-900 dark:bg-gray-800 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2024 Dhakshayani Goparaju. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

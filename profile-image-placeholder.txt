@@ -1,0 +1,30 @@
+PROFILE IMAGE INSTRUCTIONS
+==========================
+
+To add your profile image to the portfolio:
+
+1. Replace this file with your actual profile image
+2. Rename your image file to "profile-image.jpg"
+3. Recommended image specifications:
+   - Format: JPG, PNG, or WebP
+   - Size: 400x400 pixels or larger (square aspect ratio)
+   - Quality: High resolution for crisp display
+   - Style: Professional headshot or business casual photo
+
+4. Place the image file in the same directory as index.html
+
+The image will automatically:
+- Display as a circular profile picture
+- Have a beautiful gradient background as fallback
+- Include hover effects and animations
+- Be responsive on all devices
+- Show a placeholder if the image fails to load
+
+Example file structure:
+portfolio/
+├── index.html
+├── styles.css
+├── script.js
+├── README.md
+├── resume.pdf
+└── profile-image.jpg  <- Your image here 

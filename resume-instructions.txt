@@ -1,0 +1,36 @@
+RESUME DOWNLOAD INSTRUCTIONS
+============================
+
+The resume is now available as an HTML file (resume.html) which can be easily converted to PDF.
+
+To convert the HTML resume to PDF:
+
+METHOD 1 - Using Browser (Recommended):
+1. Open resume.html in your web browser
+2. Press Ctrl+P (or Cmd+P on Mac) to open print dialog
+3. Select "Save as PDF" as the destination
+4. Click "Save" to download the PDF
+
+METHOD 2 - Using Online Converters:
+1. Go to online PDF converters like:
+   - https://www.ilovepdf.com/html-to-pdf
+   - https://smallpdf.com/html-to-pdf
+   - https://convertio.co/html-pdf/
+2. Upload the resume.html file
+3. Download the converted PDF
+
+METHOD 3 - Using Microsoft Word:
+1. Open resume.html in a web browser
+2. Select all content (Ctrl+A)
+3. Copy (Ctrl+C)
+4. Paste into Microsoft Word
+5. Save as PDF
+
+The HTML resume includes:
+- Professional formatting
+- Updated contact information
+- All your skills, projects, and experience
+- Print-friendly styling
+- Proper sections and layout
+
+Your resume is now ready to be shared with potential employers! 
